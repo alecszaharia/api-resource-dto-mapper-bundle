@@ -1,0 +1,24 @@
+{
+    "name": "alecszaharia/api-resource-dto-mapper",
+    "description": "Map Api platform's Api Resources to doctrine entities",
+    "version": "1.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alecszaharia\\ApiResourceDtoMapperBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alecszaharia\\ApiResourceDtoMapperBundle\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alexandru Zaharia"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "^7.3"
+    }
+}
